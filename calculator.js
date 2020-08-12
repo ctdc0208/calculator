@@ -10,11 +10,13 @@ function subtract (num1, num2) {
 }
 
 function sum (...nums) {
-	let res
+	let res = nums.reduce((num1, num2) => num1 + num2)
+	return res
 }
 
-function multiply () {
-
+function multiply (...nums) {
+	let res = nums.reduce((num1, num2) => num1 * num2)
+	return res
 }
 
 function power() {
