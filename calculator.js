@@ -19,8 +19,9 @@ function multiply (...nums) {
 	return res
 }
 
-function power() {
-
+function power (num1. num2) {
+	let res = Math.power (num1, num2)
+	return res
 }
 
 function factorial() {
