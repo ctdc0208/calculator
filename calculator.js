@@ -1,16 +1,16 @@
 
 function add (num1, num2) {
-	let result = num1 + num2
-	return result
+	let res = num1 + num2
+	return res
 }
 
 function subtract (num1, num2) {
-	let result = num1 - num2
-	return result
+	let res = num1 - num2
+	return res
 }
 
-function sum () {
-	result = a
+function sum (...nums) {
+	let res
 }
 
 function multiply () {
